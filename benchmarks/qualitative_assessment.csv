@@ -1,0 +1,4 @@
+Tool,Visual Richness,Interactivity,Missing Value Alerts,High Cardinality Handle,Target Analysis,Ease of Use (LOC),Customisation,Best For
+ydata-profiling,★★★★☆,Medium (collapsible sections),"Excellent (threshold, pattern)",Good (warns + truncates),Limited (use pandas-profiling compare),3 lines,Extensive (config object),"Thorough audits, data quality reports"
+sweetviz,★★★★★,"High (hover, toggle)",Good (shown inline),Moderate (truncates to top-N),Excellent (compare split/target),2 lines,Moderate (FeatureConfig),"ML target analysis, stakeholder demos"
+autoviz,★★★☆☆,Low (static HTML charts),Basic,Good (auto-bins),Good (scatter vs dep var),4 lines,Limited,"Large data, quick first-pass, speed"

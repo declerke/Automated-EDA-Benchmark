@@ -1,0 +1,16 @@
+dataset,size_label,rows,tool,time_s,peak_ram_mb,report_mb,status
+titanic,Small (~891 rows),891,ydata-profiling,22.91,513.6,4.71,ok
+california_housing,Medium (~20k rows),20640,ydata-profiling,54.13,552.0,5.55,ok
+nyc_taxi,Large (~500k rows sampled),500000,ydata-profiling,131.58,1046.9,7.51,ok
+credit_card_fraud,Large (~284k rows),284807,ydata-profiling,430.31,1648.7,46.9,ok
+heart_failure,Tiny (~299 rows),299,ydata-profiling,31.08,588.5,3.37,ok
+titanic,Small (~891 rows),891,sweetviz,7.52,579.7,1.12,ok
+california_housing,Medium (~20k rows),20640,sweetviz,15.81,628.0,1.79,ok
+nyc_taxi,Large (~500k rows sampled),500000,sweetviz,158.23,1011.1,1.91,ok
+credit_card_fraud,Large (~284k rows),284807,sweetviz,70.66,962.2,3.43,ok
+heart_failure,Tiny (~299 rows),299,sweetviz,12.56,848.5,1.46,ok
+titanic,Small (~891 rows),891,autoviz,89.2,666.2,1.28,ok
+california_housing,Medium (~20k rows),20640,autoviz,12.74,791.0,116.07,ok
+nyc_taxi,Large (~500k rows sampled),500000,autoviz,138.47,1550.3,544.93,ok
+credit_card_fraud,Large (~284k rows),284807,autoviz,364.7,2799.6,894.23,ok
+heart_failure,Tiny (~299 rows),299,autoviz,6.49,2765.9,0.0,ok

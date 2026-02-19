@@ -1,0 +1,16 @@
+Dataset,Size,Tool,Time (s),Peak RAM (MB),Report (MB),Visual Quality,Notes
+california_housing,Medium (~20k rows),autoviz,12.74,791.0,116.07,★★★☆☆,Correlation-guided chart selection is smart. Scatter plots for numeric targets.
+california_housing,Medium (~20k rows),sweetviz,15.81,628.0,1.79,★★★★★,Excellent histogram overlays and association heatmap for regression target.
+california_housing,Medium (~20k rows),ydata-profiling,54.13,552.0,5.55,★★★★☆,"Full correlation matrix, quantile plots, detailed per-column stats."
+credit_card_fraud,Large (~284k rows),autoviz,364.7,2799.6,894.23,N/A,
+credit_card_fraud,Large (~284k rows),sweetviz,70.66,962.2,3.43,N/A,
+credit_card_fraud,Large (~284k rows),ydata-profiling,430.31,1648.7,46.9,N/A,
+heart_failure,Tiny (~299 rows),autoviz,6.49,2765.9,0.0,N/A,
+heart_failure,Tiny (~299 rows),sweetviz,12.56,848.5,1.46,N/A,
+heart_failure,Tiny (~299 rows),ydata-profiling,31.08,588.5,3.37,N/A,
+nyc_taxi,Large (~500k rows sampled),autoviz,138.47,1550.3,544.93,★★★☆☆,Fastest wall-clock time on large data. Caps rows internally; use max_rows_analyzed.
+nyc_taxi,Large (~500k rows sampled),sweetviz,158.23,1011.1,1.91,★★★☆☆,Struggles slightly with high-cardinality categoricals; still fastest visual HTML.
+nyc_taxi,Large (~500k rows sampled),ydata-profiling,131.58,1046.9,7.51,★★★★☆,Most complete analysis but high RAM cost; consider minimal=True for >200k rows.
+titanic,Small (~891 rows),autoviz,89.2,666.2,1.28,★★★☆☆,Quick chart dump; less narrative. Best for rapid first-pass on small data.
+titanic,Small (~891 rows),sweetviz,7.52,579.7,1.12,★★★★★,Beautiful side-by-side target comparisons. Best visual output for classification.
+titanic,Small (~891 rows),ydata-profiling,22.91,513.6,4.71,★★★★☆,"Comprehensive missing-value alerts, correlations, interactions. Slowest on large data."

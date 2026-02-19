@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data
+# Exclude raw CSVs as they can be large and are usually hosted elsewhere
+data/*.csv
+data/*.zip
+
+# Benchmarking Outputs
+# We generally keep the summary CSVs and PNG charts for documentation,
+# but exclude the massive raw results if they grow too large.
+# benchmarks/benchmark_results.csv 
+
+# EDA Reports
+# These are the primary culprits for size limits (HTML/JS/Images)
+reports/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Exclude Parquet data files
+*.parquet
+data/*.parquet
